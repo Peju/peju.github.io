@@ -28,6 +28,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7abcff', end
 	padding-bottom: 26px;
 }
 
+.nyctop1{
+	max-width: 1024px;
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+	padding-bottom: 45px;
+	padding-top: 45px;
+}
 
 .change{
 	font-size: 18px;
