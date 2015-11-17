@@ -1,0 +1,71 @@
+.header { 
+	width: 100%;
+	height: 800px;
+	background-image: url(dantecover.jpg); 
+	background-color: #BFC7E0;
+	padding-left: 0px;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: 100%;
+}
+	#header {
+ 	background-color: #333;
+	position: fixed;
+	top: 0px;
+	left: 0;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	border-bottom: 1px solid black;
+	color: white;
+ }
+
+//BAR SWAG// (below)
+
+.navcolor a {
+	text-decoration: none;
+}
+.navcolor a:visited { 
+	color: #FFF;
+}
+.navcolor a:hover {
+	color:black;
+}
+.navbar-custom {
+	margin-bottom: 0;
+	border-bottom: 1px solid white;
+	background-color: #FFF;
+}
+@media(min-width:767px) {
+	.navbar {
+		padding: 20px 0;
+		border-bottom: 0;
+		background: 0 0;
+	}
+}
+.navbar-custom .navbar-brand:focus {
+	outline: 0;
+}
+.navbar-custom a {
+	color: #FFF;
+}
+.navbar-brand {
+	font-family: 'Raleway';
+    font-size: 18.5px;
+}
+.page-scroll {
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+}
+
+.brownbook{
+	color: brown;
+}
+
+.intro{
+	padding-top: 50px;
+	background: -moz-linear-gradient(top, rgba(165,150,163,1) 0%, rgba(255,130,130,1) 100%); 
+	background: -webkit-linear-gradient(top, rgba(165,150,163,1) 0%,rgba(255,130,130,1) 100%);
+	background: linear-gradient(to bottom, rgba(165,150,163,1) 0%,rgba(255,130,130,1) 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a596a3', endColorstr='#ff8282',GradientType=0 );
+}
