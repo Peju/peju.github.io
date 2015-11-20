@@ -79,14 +79,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7abcff', end
 }
 
 .topdawg{
-	background: rgb(184,198,223); 
-	background: -moz-linear-gradient(top, rgba(184,198,223,1) 0%, rgba(131,153,219,1) 100%); 
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(184,198,223,1)), color-stop(100%,rgba(131,153,219,1)));
-	background: -webkit-linear-gradient(top, rgba(184,198,223,1) 0%,rgba(131,153,219,1) 100%); 
-	background: -o-linear-gradient(top, rgba(184,198,223,1) 0%,rgba(131,153,219,1) 100%); 
-	background: -ms-linear-gradient(top, rgba(184,198,223,1) 0%,rgba(131,153,219,1) 100%);
-	background: linear-gradient(to bottom, rgba(184,198,223,1) 0%,rgba(131,153,219,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b8c6df', endColorstr='#8399db',GradientType=0 ); 
+	  background: rgb(197,212,237); 
+    background: -moz-linear-gradient(top, rgba(197,212,237,1) 0%, rgba(92,151,224,1) 43%, rgba(92,151,224,1) 43%, rgba(92,151,224,1) 60%, rgba(203,217,239,1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(197,212,237,1)), color-stop(43%,rgba(92,151,224,1)), color-stop(43%,rgba(92,151,224,1)), color-stop(60%,rgba(92,151,224,1)), color-stop(100%,rgba(203,217,239,1))); 
+    background: -webkit-linear-gradient(top, rgba(197,212,237,1) 0%,rgba(92,151,224,1) 43%,rgba(92,151,224,1) 43%,rgba(92,151,224,1) 60%,rgba(203,217,239,1) 100%); 
+    background: -o-linear-gradient(top, rgba(197,212,237,1) 0%,rgba(92,151,224,1) 43%,rgba(92,151,224,1) 43%,rgba(92,151,224,1) 60%,rgba(203,217,239,1) 100%); 
+    background: -ms-linear-gradient(top, rgba(197,212,237,1) 0%,rgba(92,151,224,1) 43%,rgba(92,151,224,1) 43%,rgba(92,151,224,1) 60%,rgba(203,217,239,1) 100%); 
+    background: linear-gradient(to bottom, rgba(197,212,237,1) 0%,rgba(92,151,224,1) 43%,rgba(92,151,224,1) 43%,rgba(92,151,224,1) 60%,rgba(203,217,239,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c5d4ed', endColorstr='#cbd9ef',GradientType=0 ); 
 }
 
 #header {
