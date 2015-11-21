@@ -69,6 +69,20 @@
     font-size: 25px;
     padding-bottom: 10px;
 }
+
+.line3{
+    text-align: center;
+    color: red;
+    font-size: 25px;
+    padding-bottom: 10px;
+
+}
+.gforms{
+    text-align: center;
+    color: brown;
+
+}
+
 /*Bar Swag*/
 .navcolor a {
 	text-decoration: none;

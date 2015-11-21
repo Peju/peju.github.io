@@ -10,22 +10,36 @@
 	background-position: bottom;
 	background-size: 100%;
 }
-/*	
-background: rgb(122,188,255);
-background: -moz-linear-gradient(top, rgba(122,188,255,1) 0%, rgba(96,171,248,1) 54%, rgba(64,150,238,1) 100%);
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(122,188,255,1)), color-stop(54%,rgba(96,171,248,1)), color-stop(100%,rgba(64,150,238,1))); 
-background: -webkit-linear-gradient(top, rgba(122,188,255,1) 0%,rgba(96,171,248,1) 54%,rgba(64,150,238,1) 100%); 
-background: -o-linear-gradient(top, rgba(122,188,255,1) 0%,rgba(96,171,248,1) 54%,rgba(64,150,238,1) 100%); 
-background: -ms-linear-gradient(top, rgba(122,188,255,1) 0%,rgba(96,171,248,1) 54%,rgba(64,150,238,1) 100%); 
-background: linear-gradient(to bottom, rgba(122,188,255,1) 0%,rgba(96,171,248,1) 54%,rgba(64,150,238,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7abcff', endColorstr='#4096ee',GradientType=0 ); 
-*/
+
+.meme{
+	font-size: 24px;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	text-decoration: none;
+}
+
+.line3{
+    text-align: center;
+    color: #0000cc;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.line4{
+    text-align: center;
+    color: #000080;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.email{
+	color: black;
+
+}
 
 .quote{
 	text-align: center;
 	font-size: 50px;
-	padding-top: 100px;
-	padding-bottom: 26px;
+	padding-top: 60px;
+	padding-bottom: 20px;
 }
 
 .nyctop1{
@@ -37,12 +51,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7abcff', end
 	padding-top: 45px;
 }
 
-.change{
-	font-size: 18px;
-	font-family: 'Oswald', sans-serif;
-    text-decoration: none;
-    padding-bottom: 25px;
-}
 .textcollege{
     font-family: 'Raleway'. sans-serif;
     font-size: 18px;
@@ -54,17 +62,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7abcff', end
 }
 .un,
 .random{
-	padding-top: 40px;
+	padding-top: 25px;
 	text-align: center;
 	font-family: 'Raleway', sans-serif;
-	padding-bottom: 20px;
-}
-.usage{
-    text-align: center;
-    font-family: 'Raleway'; 
-    font-size: 38px;
-    color: #0074D9;
-}
+	padding-bottom: 45px;
+} 
+
 .green,
 .angreen{
 	color:green;
@@ -79,15 +82,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7abcff', end
 }
 
 .topdawg{
-	  background: rgb(197,212,237); 
-    background: -moz-linear-gradient(top, rgba(197,212,237,1) 0%, rgba(92,151,224,1) 43%, rgba(92,151,224,1) 43%, rgba(92,151,224,1) 60%, rgba(203,217,239,1) 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(197,212,237,1)), color-stop(43%,rgba(92,151,224,1)), color-stop(43%,rgba(92,151,224,1)), color-stop(60%,rgba(92,151,224,1)), color-stop(100%,rgba(203,217,239,1))); 
-    background: -webkit-linear-gradient(top, rgba(197,212,237,1) 0%,rgba(92,151,224,1) 43%,rgba(92,151,224,1) 43%,rgba(92,151,224,1) 60%,rgba(203,217,239,1) 100%); 
-    background: -o-linear-gradient(top, rgba(197,212,237,1) 0%,rgba(92,151,224,1) 43%,rgba(92,151,224,1) 43%,rgba(92,151,224,1) 60%,rgba(203,217,239,1) 100%); 
-    background: -ms-linear-gradient(top, rgba(197,212,237,1) 0%,rgba(92,151,224,1) 43%,rgba(92,151,224,1) 43%,rgba(92,151,224,1) 60%,rgba(203,217,239,1) 100%); 
-    background: linear-gradient(to bottom, rgba(197,212,237,1) 0%,rgba(92,151,224,1) 43%,rgba(92,151,224,1) 43%,rgba(92,151,224,1) 60%,rgba(203,217,239,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c5d4ed', endColorstr='#cbd9ef',GradientType=0 ); 
+
+background: rgb(133,174,178); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(133,174,178,1) 0%, rgba(53,173,204,1) 41%, rgba(122,138,191,1) 73%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(133,174,178,1) 0%,rgba(53,173,204,1) 41%,rgba(122,138,191,1) 73%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(133,174,178,1) 0%,rgba(53,173,204,1) 41%,rgba(122,138,191,1) 73%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#85aeb2', endColorstr='#7a8abf',GradientType=0 );
 }
+
+/*Use first gradient on from first site*/
 
 #header {
  	background-color: #333;
@@ -157,7 +160,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7abcff', end
     text-align: center;
     font-family: 'Raleway'sans-serif;
     font-size: 38px;
-    color: #0074D9;
+    color: black;
+ 
 
 }
 .gmail{
@@ -222,15 +226,19 @@ font-size: 60px;
 }
 
 p{
-	font-size: 25px;
+	font-size: 30px;
 	font-family: 'Iceland', sans-serif;
 	color: black;
+	text-decoration: none;
+	text-align: center;
 
 } /*#c6e2ff*/
 
-.bio{
-	font-family: 'Montserrat', sans-serif;
-    padding-bottom: 25px;
+.basic{
+    font-size: 40px;
+    text-align: center;
+	font-family: 'Raleway', sans-serif;
+    padding-bottom: 10px;
 }
 
 .wtfprob{
@@ -243,108 +251,4 @@ p{
 }
 .nigga{
       font-family: 'Titillium Web', sans-serif;
-
-/* PUT ON HOLD 
-h2 {
-	font-family: 'GT-Walsheim-Regular', 'Helvetica', sans-serif;
-	font-size: 36px;
-	line-height: 1.3em;
-	letter-spacing: 1pt;
-}
-.intro .container {
-	margin-top: 180px;
-}
-.intro img {
-	max-width: 75px;
-	margin-bottom: 30px;
-}
-.copy .col-md-4.mailing-list p {
-	margin-bottom: 10px;
-}
-.footer {
-	padding-top: 10%
-}
-input[type="email"] {
-  display: block;
-  text-align: center;
-  margin-top: 10px;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #0033cc ;
-  color: #0033cc ;
-  width: 100%;
-  padding: 10px;
-button:active {
-  background-color: #0033cc ;
-  color: #fff;
-  outline: 0;
-}
-form {
-	margin-bottom: 50px;
-input:focus {
-  outline: none;
-}
-::-webkit-input-placeholder {
-   color: #7591e4;
-}
-:-moz-placeholder { 
-   color: #7591e4;  
-}
-::-moz-placeholder {  
-   color: #7591e4;  
-}
-:-ms-input-placeholder {  
-   color: #7591e4;  
-}
-;
-	margin: 0 auto;
-}
-@media (max-width: 700px) {
-	.intro .container {
-		margin-top: 20vh;
-	}
-	.header {
-		height: 450px;
-	}
-	.logo {
-		right: 16%;
-		left: 16%;
-		width: auto; 
-		margin-left: 0; 
-	}
-	h1 {
-		font-size: 42px;
-	}
-	.footer {
-		padding-bottom: 20px;
-	}
-}
-@media (max-width: 400px) {
-	.footer img {
-		max-height: inherit;
-		float: left;
-		margin-top: 10px;
-		margin-right: 0;
-		width: 33%;
-	}
-}
-.intro .col-md-4 {
-	background-color: #fff;
-	margin-top: 20px;
-}
-.intro .col-md-8 hr {
-	margin: 0;
-	border-top-style: solid;
-	border-top-width: 5px;
-	border-top-color: #0033cc;
-}
-
-.intro .col-md-8 h1, h2 {
-	padding: none;
-}
-
-.copy .row {
-	margin-top: 50px;
-}
-*/
 
