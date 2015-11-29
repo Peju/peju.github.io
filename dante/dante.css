@@ -75,13 +75,22 @@
     color: red;
     font-size: 25px;
     padding-bottom: 10px;
-
 }
+
 .gforms{
     text-align: center;
     color: brown;
-
 }
+
+.bolgia{
+    max-width: 480px;
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
 
 /*Bar Swag*/
 .navcolor a {
