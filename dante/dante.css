@@ -1,24 +1,27 @@
-.header { 
-	width: 100%;
-	height: 790px;
-	background-image: url(dantecover.jpg); 
-	background-color: #BFC7E0;
-	padding-left: 0px;
-	background-repeat: no-repeat;
-	background-position: bottom;
-	background-size: 100%;
+
+.parallax{
+    background:url(dante2.jpg) repeat fixed;
+    background-size: 100%;
 }
-	#header {
- 	background-color: #333;
-	position: fixed;
-	top: 0px;
-	left: 0;
-	width: 100%;
-	padding: 0;
-	margin: 0;
-	border-bottom: 1px solid black;
-	color: white;
- }
+.parallax-inner{
+    padding-top: 24%;
+    padding-bottom: 25%;
+}
+.header { 
+    width: 100%;
+    height: 50%;
+    background-color: #BFC7E0;
+    padding-left: 0px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100%;
+    overflow: hidden;
+}
+
+
+
+
+
 
 .hook{
 	font-size: 50px;
@@ -97,40 +100,37 @@
 
 /*Bar Swag*/
 .navcolor a {
-	text-decoration: none;
+    text-decoration: none;
 }
 .navcolor a:visited { 
-	color: #FFF;
+    color: black;
 }
 .navcolor a:hover {
-	color:black;
+    color:black;
 }
 .navbar-custom {
-	margin-bottom: 0;
-	border-bottom: 1px solid white;
-	background-color: #FFF;
-}
-@media(min-width:767px) {
-	.navbar {
-		padding: 20px 0;
-		border-bottom: 0;
-		background: 0 0;
-	}
+    margin-bottom: 0;
 }
 .navbar-custom .navbar-brand:focus {
-	outline: 0;
+    outline: 0;
 }
 .navbar-custom a {
-	color: #FFF;
+    color: black;
 }
 .navbar-brand {
-	font-family: 'Raleway';
-    font-size: 18.5px;
+    font-family: 'Raleway';
+    font-size: 18px;
 }
 .page-scroll {
     font-family: 'Raleway', sans-serif;
-    font-size: 12px;
+    font-size: 13px;
 }
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        border-bottom: 0;
+        background: 0 0;
+    }
 
 .brownbook{
 	color: brown;
