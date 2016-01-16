@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mini game</title>
+	<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+	<link rel="icon" type="image/x-icon" href="favicon.ico"/>
+	<link rel="stylesheet" type="text/css" href="js.css" href= "animate.css">
+</head>
+
+
+<body>
+	<div>
+		<p class = "intro"> Thanks for playing! </p>
+	</div>
+</body>
+
+
+<script type = "text/javascript">
+
+confirm("Are you ready to start?");
+
+var age = prompt("What's your age?");
+
+if (age < 13)
+{
+	console.log("You're not allowed to play");
+}	
+else
+{
+	console.log("You can play!");
+}
+
+
+var q1 = prompt("You're running away from zombies in the forest, it's dark and your friend falls, you save them? (yes or no)");
+
+if (q1 = "yes")
+	console.log("You make a miracle escape and your friend is untouched!");
+else
+	console.log("You run blindly without your friend as they die, but you get attacked from the side.");
+
+
+var q2 = prompt("You survived and see strangers, they're heavily armed do you approach them?");
+
+if (q1 = "yes")
+	console.log("Turns out they're red necks with no morals, and kill you brutally.");
+else
+	console.log("You throw a rock, that provokes nearby zombies to chase them.");
+
+
+var q3 = prompt("You avoid them, dawn is apporaching, you see a giant mountain that looks isolated, and live there til the end.");
+
+if (q3 = "yes")
+	console.log("You manage to climb to the top, and found a hut that is vacant.");
+else
+	console.log("You continue to head east to the shore, but run out of suppleies");
+
+
+
+var feedback
+
+feedback = prompt("what do you rate this game?");
+
+if (feedback > 8)
+	console.log("Thank you!");
+else
+	console.log("I'll keep practicing coding and racing.");
+
+
+</script>
+
+</html>

@@ -86,7 +86,13 @@
 }
 
 .contactbox{
-	height:120px;
+	height:380px;
+	z-index: 1;
+	background-color: brown;
+}
+
+.contactbox2{
+	height:220px;
 	z-index: 1;
 	background-color: white;
 }
