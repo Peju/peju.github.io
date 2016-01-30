@@ -1,0 +1,135 @@
+/*css media queries*/
+.header { 
+	width: 100%;
+	height: 50%;
+	background-color: #BFC7E0;
+	padding-left: 0px;	 
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: 100%;
+	overflow: hidden;
+}
+
+#header{
+	position: fixed;
+	top: 0px;
+	left: 0;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	color: white;
+}
+
+
+
+
+/*Parallax*/
+.parallax{
+	background:url(keybb.jpg) repeat fixed;
+	background-size: 100%;
+}
+.parallax-inner{
+	padding-top: 22%;
+	padding-bottom: 25%;
+}
+
+
+/*Text*/
+
+.picframe{
+	text-align: center;
+	padding-top: 30px;
+}
+
+.textabout{
+	font-size: 38px;
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	z-index: 2;
+	text-align: center;
+	padding-top: 80px;
+}
+
+.textaboutme{
+	font-family: 'Rock Salt', sans-serif;
+	font-size: 35px;
+	text-align: center;
+}
+.aboutme{
+	background-color: #c3c388;
+	padding-top: 2%;
+	padding-bottom: 10%;
+}
+
+.aboutmetoo{
+	background-color: #ddddbb;
+	padding-top: 10%;
+	padding-bottom: 10%;
+}
+
+.aboutmeinfo{
+	font-family: 'Raleway', sans-serif;
+	font-size: 21px;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	}
+
+.nigga{
+      font-family: 'Titillium Web', sans-serif;
+      font-size: 22px;
+}
+
+.redh{
+	color:red;
+}
+
+.green,
+.angreen{
+	color:green;
+
+}
+.imagehead{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+
+
+
+
+/* BUTTONS! */
+.navcolor a {
+	text-decoration: none;
+}
+.navcolor a:visited { 
+	color: white;
+}
+.navcolor a:hover {
+	color: white;
+}
+.navbar-custom {
+	margin-bottom: 0;
+}
+.navbar-custom .navbar-brand:focus {
+	outline: 0;
+}
+.navbar-custom a {
+	color: white;
+}
+.navbar-brand {
+	font-family: 'Raleway';
+    font-size: 18px;
+}
+.page-scroll {
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;  
+}
+@media(min-width:767px) {
+	.navbar {
+		padding: 20px 0;
+		border-bottom: 0;
+		background: 0 0;
+	}
+
+
