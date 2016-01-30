@@ -1,7 +1,7 @@
 /*css media queries*/
 .header { 
 	width: 100%;
-	height: 50%;														
+	height: 50%;
 	background-color: #BFC7E0;
 	padding-left: 0px;	 
 	background-repeat: no-repeat;
@@ -21,8 +21,9 @@
 }
 
 
-/*Parallax*/
 
+
+/*Parallax*/
 .parallax{
 	background:url(keybb.jpg) repeat fixed;
 	background-size: 100%;
@@ -62,7 +63,7 @@
 
 .aboutmetoo{
 	background-color: #ddddbb;
-	padding-top: 2%;
+	padding-top: 10%;
 	padding-bottom: 10%;
 }
 
@@ -72,9 +73,9 @@
 	text-align: center;
 	padding-top: 30px;
 	padding-bottom: 30px;
-}
+	}
 
-.bs{
+.nigga{
       font-family: 'Titillium Web', sans-serif;
       font-size: 22px;
 }
@@ -90,13 +91,7 @@
 }
 .imagehead{
     text-align: center;
-    padding-bottom: 35px;
-}
-
-.lists{
-	text-align: left;
-	font-family: 'Raleway', sans-serif;
-	font-size: 21px;
+    padding-bottom: 30px;
 }
 
 
