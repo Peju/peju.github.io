@@ -21,8 +21,6 @@
 }
 
 
-
-
 /*Parallax*/
 .parallax{
 	background:url(keybb.jpg) repeat fixed;
@@ -60,12 +58,17 @@
 	padding-top: 2%;
 	padding-bottom: 10%;
 }
-
 .aboutmetoo{
 	background-color: #ddddbb;
-	padding-top: 10%;
+	padding-top: 2%;
 	padding-bottom: 10%;
 }
+.aboutmethree{
+	background-color: #c3c388;
+	padding-top: 2%;
+	padding-bottom: 10%;
+}
+
 
 .aboutmeinfo{
 	font-family: 'Raleway', sans-serif;
@@ -75,7 +78,7 @@
 	padding-bottom: 30px;
 	}
 
-.nigga{
+.bs{
       font-family: 'Titillium Web', sans-serif;
       font-size: 22px;
 }
@@ -94,8 +97,17 @@
     padding-bottom: 30px;
 }
 
+.projinfo{
+	font-family: 'Raleway', sans-serif;
+	font-size: 24px;
+	padding-top: 3%;
+	padding-bottom: 6%;
+	text-align: center;
+}
 
-
+.card-4 {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
 
 
 /* BUTTONS! */
@@ -106,7 +118,7 @@
 	color: white;
 }
 .navcolor a:hover {
-	color: white;
+	color: gray;
 }
 .navbar-custom {
 	margin-bottom: 0;
@@ -131,5 +143,7 @@
 		border-bottom: 0;
 		background: 0 0;
 	}
+
+
 
 
