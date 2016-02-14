@@ -1,0 +1,45 @@
+.welcome{
+	font-size: 34px;
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	text-align: center;
+}	
+
+.welcome2{
+	font-size: 28px;
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+}	
+
+.textabout{
+	font-size: 80px;
+	font-family: 'Bangers', sans-serif;
+	color: white;
+	z-index: 2;
+	text-align: center;
+	padding-top: 60px;
+}
+
+.bg{
+	background: #a90329; 
+	background: -moz-linear-gradient(top, #a90329 0%, #8f0222 44%, #6d0019 100%); 
+	background: -webkit-linear-gradient(top, #a90329 0%,#8f0222 44%,#6d0019 100%); 
+	background: linear-gradient(to bottom, #a90329 0%,#8f0222 44%,#6d0019 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=0 ); 
+	padding-bottom: 10%;
+	padding-top: 5%;
+}
+
+
+/*Parallax*/
+.parallax{
+	background:url(romcity.jpg) repeat fixed;
+	background-size: 100%;
+	position: relative;
+}
+.parallax-inner{
+	padding-top: 22%;
+	padding-bottom: 25%;
+}
