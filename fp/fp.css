@@ -35,7 +35,7 @@
 
 /*Parallax*/
 .parallax{
-	background:url(romcity.jpg) repeat fixed;
+	background:url(romcity.jpg) fixed;
 	background-size: 100%;
 	position: relative;
 }
