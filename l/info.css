@@ -23,12 +23,12 @@
 
 /*Parallax*/
 .parallax{
-	background:url(https://i.gyazo.com/497c25a2915561254459b9b8cf05ce0f.png) repeat fixed;
+	background:url(bark.jpg) repeat fixed;
 	background-size: 100%;
 	position: relative;
 }
 .parallax-inner{
-	padding-top: 22%;
+	padding-top: 12%;
 	padding-bottom: 25%;
 }
 
@@ -41,12 +41,12 @@
 }
 
 .textabout{
-	font-size: 50px;
+	font-size: 48px;
 	font-family: 'Orbitron', sans-serif;
-	color: white;
+	color: black;
 	z-index: 2;
 	text-align: center;
-	padding-top: 40px;
+	padding-top: 20px;
 }
 .textaboutme{
 	font-family: 'Rock Salt', sans-serif;
