@@ -9,16 +9,8 @@
   font-family: 'Montserrat', sans-serif;
 }
 
-@media only screen and (max-width: 320px) {
-    /* styles for narrow screens */
-    .background-image{
-    	width: 100%;
-    	height: auto;
-    }
-}
-
 @media only screen and (max-width: 1800px) {
-    /* styles for MacBook Pro-sized screens and larger */
+    /* sstyles for MacBook Pro-sized screens and larger */
     .background-image{
     	width: 100%;
     	height: auto;

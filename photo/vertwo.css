@@ -28,18 +28,26 @@
 .parallax{
 	background:url(canada.jpg) repeat fixed;
 	background-size: 100%;
+	background-size: cover;
+  	background-position: center;
 }
 .parallax1{
 	background: url(125t.jpg) repeat fixed;
 	background-size: 100%;
+	background-size: cover;
+ 	background-position: center;
 }
 .parallax2{
 	background: url(roadtocanada.jpg) repeat fixed;
 	background-size: 100%;
+	background-size: cover;
+  	background-position: center;
 }
 .parallax4{
 	background: url(b4.jpg) repeat fixed;
 	background-size: 100%;
+	background-size: cover;
+    background-position: center;
 }
 .parallax-inner{
 	padding-top: 22%;

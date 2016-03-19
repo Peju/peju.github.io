@@ -23,12 +23,14 @@
 
 /*Parallax*/
 .parallax{
-	background:url(bark.jpg) repeat fixed;
+	background:url(sky1.jpg) repeat fixed;
 	background-size: 100%;
-	position: relative;
+	background-size: cover;
+    background-position: center;
+    
 }
 .parallax-inner{
-	padding-top: 12%;
+	padding-top: 20%;
 	padding-bottom: 25%;
 }
 
@@ -43,7 +45,7 @@
 .textabout{
 	font-size: 48px;
 	font-family: 'Orbitron', sans-serif;
-	color: black;
+	color: white;
 	z-index: 2;
 	text-align: center;
 	padding-top: 20px;
