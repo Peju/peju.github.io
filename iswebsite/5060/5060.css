@@ -1,7 +1,8 @@
 .header {
 	width: 100%;
 	height: 50%;
-	background-color: #2A9FFF;
+	/* background-color: #BFC7E0; */
+	background-image: url("ibmMf.jpg");
 	padding-left: 0px;
 	background-repeat: no-repeat;
 	background-position: bottom;
@@ -25,76 +26,77 @@
 	color: white;
  }
 
- .textabout{
- 	font-size: 38px;
- 	font-family: 'Raleway', sans-serif;
- 	color: white;
- 	z-index: 2;
- 	text-align: left;
- 	padding-top: 4%;
- 	padding-left: 30px;
- }
+
+.textabout{
+	font-size: 38px;
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	z-index: 2;
+	text-align: left;
+	padding-top: 4%;
+	padding-left: 30px;
+}
 
 
- .contactbox{
- 	height:380px;
- 	z-index: 1;
- 	background-color: brown;
- }
+.contactbox{
+	height:380px;
+	z-index: 1;
+	background-color: brown;
+}
 
- .moreabout{
- 	font-family: 'Raleway', sans-serif;
- 	font-size: 20px;
- 	text-align: center;
- 	padding-top: 15%;
- 	padding-left: 21%;
- 	position: absolute;
- }
-
-
- .parallax{
- 	background:url() repeat fixed;
- 	background-color: blue;
- 	background-size: 100%;
- 	background-size: cover;
-   	background-position: center;
- }
-
- .parallax-inner{
- 	padding-top: 22%;
- 	padding-bottom: 25%;
- }
+.moreabout{
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 15%;
+	padding-left: 21%;
+	position: absolute;
+}
 
 
- .navcolor a {
- 	text-decoration: none;
- }
- .navcolor a:visited {
- 	color: white;
- }
- .navcolor a:hover {
- 	color: gray;
- }
- .navbar-custom {
- 	margin-bottom: 0;
- }
- .navbar-custom .navbar-brand:focus {
- 	outline: 0;
- }
- .navbar-custom a {
- 	color: white;
- }
- .navbar-brand {
- 	font-family: 'Raleway';
-     font-size: 18px;
- }
- .page-scroll {
-     font-family: 'Raleway', sans-serif;
-     font-size: 13px;
- }
- @media(min-width:767px) {
- 	.navbar {
- 		padding: 20px 0;
- 		border-bottom: 0;
- 		background: 0 0;
- 	}
+.parallax{
+	background:url("ibmMf.jpg") repeat fixed;
+	background-color: blue;
+	background-size: 100%;
+	background-size: cover;
+  	background-position: center;
+}
+
+.parallax-inner{
+	padding-top: 22%;
+	padding-bottom: 25%;
+}
+
+
+.navcolor a {
+	text-decoration: none;
+}
+.navcolor a:visited {
+	color: white;
+}
+.navcolor a:hover {
+	color: gray;
+}
+.navbar-custom {
+	margin-bottom: 0;
+}
+.navbar-custom .navbar-brand:focus {
+	outline: 0;
+}
+.navbar-custom a {
+	color: white;
+}
+.navbar-brand {
+	font-family: 'Raleway';
+    font-size: 18px;
+}
+.page-scroll {
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+}
+@media(min-width:767px) {
+	.navbar {
+		padding: 20px 0;
+		border-bottom: 0;
+		background: 0 0;
+	}
