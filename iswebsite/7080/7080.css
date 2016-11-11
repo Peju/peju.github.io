@@ -57,6 +57,14 @@
 	padding-left: 1%;
 }
 
+.reference{
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+	padding-left: 3%;
+	background-color: #9898e6;
+	z-index: 1;
+}
+
 .parallax{
 	background:url(kids.jpg) repeat fixed;
 	background-size: 100%;
