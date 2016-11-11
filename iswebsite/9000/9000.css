@@ -1,0 +1,105 @@
+.header {
+	width: 100%;
+	height: 50%;
+	background-color: #BFC7E0;
+	/*background-image: url("ibmMf.jpg"); */
+	padding-left: 0px;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: 100%;
+	overflow: hidden;
+}
+
+
+#header {
+	background: rgb(34,55,104);
+	background: -moz-linear-gradient(top, rgba(34,55,104,1) 34%, rgba(63,76,107,1) 100%);
+	background: -webkit-linear-gradient(top, rgba(34,55,104,1) 34%,rgba(63,76,107,1) 100%);
+	background: linear-gradient(to bottom, rgba(34,55,104,1) 34%,rgba(63,76,107,1) 100%);
+	flter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#223768', endColorstr='#3f4c6b',GradientType=0 );*/
+	position: fixed;
+	top: 0px;
+	left: 0;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	color: white;
+ }
+
+
+.textabout{
+	font-size: 38px;
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	z-index: 2;
+	text-align: left;
+	padding-top: 4%;
+	padding-left: 30px;
+}
+
+
+.contactbox{
+	height:380px;
+	z-index: 1;
+	background-color: brown;
+}
+
+.moreabout{
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 3%;
+	position: absolute;
+}
+
+
+.parallax{
+	background:url("dot.jpg") repeat fixed;
+	background-color: blue;
+	background-size: 100%;
+	background-size: cover;
+  	background-position: center;
+}
+
+.parallax-inner{
+	padding-top: 22%;
+	padding-bottom: 25%;
+}
+
+
+.navcolor a {
+	text-decoration: none;
+}
+.navcolor a:visited {
+	color: white;
+}
+.navcolor a:hover {
+	color: gray;
+}
+.navbar-custom {
+	margin-bottom: 0;
+}
+.navbar-custom .navbar-brand:focus {
+	outline: 0;
+}
+.navbar-custom a {
+	color: white;
+}
+.navbar-brand {
+	font-family: 'Raleway';
+    font-size: 18px;
+}
+.page-scroll {
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+}
+@media(min-width:767px) {
+	.navbar {
+		padding: 20px 0;
+		border-bottom: 0;
+		background: 0 0;
+	}
+
+.reference {
+	z-index: 1;
+}
