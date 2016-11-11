@@ -25,7 +25,6 @@
 	color: white;
  }
 
-
 .textabout{
 	font-size: 38px;
 	font-family: 'Raleway', sans-serif;
@@ -66,7 +65,7 @@
 }
 
 .parallax{
-	background:url(kids.jpg) repeat fixed;
+	background:url(future.jpg) repeat fixed;
 	background-size: 100%;
 	background-size: cover;
   	background-position: center;
@@ -110,5 +109,4 @@
 		border-bottom: 0;
 		background: 0 0;
 	}
-
 
