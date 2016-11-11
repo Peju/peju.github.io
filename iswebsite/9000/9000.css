@@ -2,7 +2,6 @@
 	width: 100%;
 	height: 50%;
 	background-color: #BFC7E0;
-	/*background-image: url("ibmMf.jpg"); */
 	padding-left: 0px;
 	background-repeat: no-repeat;
 	background-position: bottom;
@@ -26,7 +25,6 @@
 	color: white;
  }
 
-
 .textabout{
 	font-size: 38px;
 	font-family: 'Raleway', sans-serif;
@@ -41,7 +39,7 @@
 .contactbox{
 	height:380px;
 	z-index: 1;
-	background-color: brown;
+	background-color: #98bfe6;
 }
 
 .moreabout{
@@ -52,10 +50,22 @@
 	position: absolute;
 }
 
+.littleinfo{
+	font-family: 'Raleway',sans-serif;
+	font-size: 15px;
+	padding-left: 1%;
+}
+
+.reference{
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+	padding-left: 3%;
+	background-color: #9898e6;
+	z-index: 1;
+}
 
 .parallax{
-	background:url("dot.jpg") repeat fixed;
-	background-color: blue;
+	background:url(dot.jpg) repeat fixed;
 	background-size: 100%;
 	background-size: cover;
   	background-position: center;
@@ -99,7 +109,3 @@
 		border-bottom: 0;
 		background: 0 0;
 	}
-
-.reference {
-	z-index: 1;
-}
