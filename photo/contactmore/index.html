@@ -7,6 +7,7 @@
 	<meta name="keywords" content="Peter Jough, web design, y7, Programming, New Jersey, peter jough njit, njit, bis, njit bis, last dream photography, ldp">
 	<meta name="author" content="Peter Jough">
 
+	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
@@ -21,13 +22,25 @@
 	<div class="navbar navbar-custom navbar-fixed-top" id="header" data-scrollspy="scrollspy" role="navigation">
 		<div class="container"> 
 			<div class="navbar-header">
-				<a class="navbar-brand" href="http://peju.github.io/photo/">LAST DREAM PHOTOGRAPHY</a>
+				<a class="navbar-brand" href="http://peju.github.io/photo/">
+					<img src = "logo1.png"></img>
+				</a>
 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-responsive-collapse">
 					<i class="fa fa-bars"></i>
 				</button>
 			</div>
+			<div class="navbar-collapse navbar-responsive-collapse collapse bs-js-navbar-scrollspy navbar-right">
+				<ul class="nav navbar-nav navcolor">
+					<li id="projectnav" class="">
+						<a class="page-scroll" href="peju.github.io/photo/content/">Portfolio</a>
+					</li>
+					<li id="contactnav">
+						<a class="page-scroll" href="peju.github.io/photo/contactmore/">Contact</a>
+					</li>
+				</ul>
+			</div>
 		</div>
-	</div> 
+	</div>  
 <!--content-->
 	<div>	
 		<section class = "parallax">
@@ -39,35 +52,51 @@
 		<section>
 			<div class = "contactbox2">
 				<div class = "container">
-					<p class = "layer">Fill out our form!</p>
-					<p class = "moreabout">Thank you for visiting the "contact more" page, we appreciate your interest in Last Dream Photography. The best to reach us is by email. Simply submit your name, last name and email and we'll get back to you within 24 hours!</p>
-				<div>
+					<p class = "layer">Contact Us</p>
+					<div class = "container">
+						<p class = "moreabout">Do you have any comments or questions for us? Fill out the form and we'll get back to you.</p>
+						<div class="col-md-4 imagehead">
+							<i class="fa fa-envelope-o fa-5x" aria-hidden="true"></i>
+							<p class="contacti">Provide your email.</p>
+						</div>
+						<div class="col-md-4 imagehead">
+							<i class="fa fa-check-square-o fa-5x" aria-hidden="true"></i>
+							<p class="contacti">Fill out the parameters.</p>
+						</div>
+						<div class="col-md-4 imagehead">
+							<i class="fa fa-archive fa-5x" aria-hidden="true"></i>
+							<p class="contacti">24 hour response period.</p>
+						</div>
+					</div>
+					<section>	
+						<div class = "container">
+							<form action="" method="post">
+								<fieldset>
+							  		<legend></legend>
+								  		Name:  <fieldset>
+									      <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+									    </fieldset>
+										Email: <fieldset>
+								      <input placeholder="Your Email Address" type="email" tabindex="2" required>
+								    </fieldset>
+										Notes to LDP:<fieldset>
+								      <textarea rows="4" cols="50" placeholder="Type your comments here?" tabindex="5" required></textarea>
+								    </fieldset>
+									</textarea>	
+									<fieldset>
+				    				<button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+				    				</fieldset>
+								</fieldset>
+							</form>
+						</div>
+						<div class = "contactdiv"> 
+							<i class="fa fa-copyright"></i>
+								<span class="copycent"> Last Dream Photography/rainispouring. All rights reserved. </span>
+						</div>
+					</section>
+				</div>
 			</div>
 		</section>
-	</div>
-	<div>
-		<section>
-			<A NAME="contact"></A>		
-				<div class = "contactbox">
-					<div class = "container">
-						<form action="action_page.php">
-						<p class = "emailtag">Join our email newsletter!<a style = "text-decoration: none" href="mailto:pjough@gmail.com" class="icon" title="Email"></a>
-							<i class="fa fa-envelope-o gmail"></i></p><br>
-								<div class = "moveform">
-									<input type="text" name="emailinput">
-									<input type="submit">
-								</div>
-						</form>
-					</div>
-					<section>
-							<div class = "contactdiv"> 
-						<i class="fa fa-copyright"></i>
-							<span class="copycent"> Last Dream Photography/rainispouring. All rights reserved. </span>
-					</div>
-						</section>
-					</div>
-				</div>
-			</section>
 	</div>
 </body>
 </html>

@@ -10,7 +10,7 @@
 }
 #header {
 	position: fixed;
-	top: 0px;
+	top: 15px;
 	left: 0;
 	width: 100%;
 	padding: 0;
@@ -32,7 +32,7 @@
 	text-align: center;
 	padding-bottom: 3%;
 	letter-spacing: 1px;
-	line-height: 50px;
+	line-height: 45px;
 }
 .textaboutANI{
 	font-size: 58px;
@@ -44,19 +44,18 @@
 	-webkit-animation-delay: 1.3s; 
     animation-delay: 1.3s;
 }
+.contacti{
+      font-family: 'Titillium Web', sans-serif;
+      font-size: 22px;
+}
 .contactdiv{
 	text-align: center;
 	padding-top: 100px;
 }
-.contactbox{
-	height:265px;
-	z-index: 1;
-	background-color: #99994d;
-}
 .contactbox2{
-	height:400px;
+	height:780px;
 	z-index: 1;
-	background-color: #99994d;
+	background-color: #d4d4aa;
 }
 .moveform{
 	padding-left: 39%;
@@ -74,6 +73,17 @@
 	text-align: center;
 	padding-top: 3%;
 }
+.imagehead{
+    text-align: center;
+    padding-bottom: 25px;
+}
+fieldset {
+	border: medium none !important;
+	margin: 0 0 10px;
+	min-width: 100%;
+	padding: 0;
+	width: 100%;
+}
 /*Parallax*/
 .parallax{
 	background:url(canada.jpg) repeat fixed;
@@ -86,13 +96,17 @@
 	padding-bottom: 25%;
 }
 
+/*form*/
+.note1{
+	height: 90%;
+}
 
 /* BUTTONS! */
 .navcolor a {
 	text-decoration: none;
 }
 .navcolor a:visited { 
-	color: black;
+	color: white;
 }
 .navcolor a:hover {
 	color:black;
@@ -107,12 +121,13 @@
 	color: black;
 }
 .navbar-brand {
-	font-family: 'Raleway';
+	font-family: 'Raleway', sans-serif;
     font-size: 19px;
 }
 .page-scroll {
     font-family: 'Raleway', sans-serif;
-    font-size: 13.3px;
+    font-size: 16px;
+    letter-spacing: 1px;
 }
 @media(min-width:767px) {
 	.navbar {
@@ -120,3 +135,114 @@
 		border-bottom: 0;
 		background: 0 0;
 	}
+
+
+ /*Scroll fnc */
+@-webkit-keyframes ani-mouse {
+	0% {
+	opacity: 1;
+	top: 29%;
+	}
+	15% {
+	opacity: 1;
+	top: 50%;
+	}
+	50% {
+	opacity: 0;
+	top: 50%;
+	}
+	100% {
+	opacity: 0;
+	top: 29%;
+	}
+}
+@-moz-keyframes ani-mouse {
+	0% {
+	opacity: 1;
+	top: 29%;
+	}
+	15% {
+	opacity: 1;
+	top: 50%;
+	}
+	50% {
+	opacity: 0;
+	top: 50%;
+	}
+	100% {
+	opacity: 0;
+	top: 29%;
+	}
+}
+@keyframes ani-mouse {
+	0% {
+	opacity: 1;
+	top: 29%;
+	}
+	15% {
+	opacity: 1;
+	top: 50%;
+	}
+	50% {
+	opacity: 0;
+	top: 50%;
+	}
+	100% {
+	opacity: 0;
+	top: 29%;
+	}
+}
+ .scroll-btn {
+	display: block;
+	position: absolute;
+	left: 0;
+	right: 0;
+	text-align: center;
+}
+.scroll-btn > * {
+	display: inline-block;
+	line-height: 18px;
+	font-size: 13px;
+	font-weight: normal;
+	color: #7f8c8d;
+	color: #ffffff;
+	font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	letter-spacing: 2px;
+}
+.scroll-btn > *:hover,
+.scroll-btn > *:focus,
+.scroll-btn > *.active {
+	color: #ffffff;
+}
+.scroll-btn > *:hover,
+.scroll-btn > *:focus,
+.scroll-btn > *:active,
+.scroll-btn > *.active {
+	opacity: 0.8;
+	filter: alpha(opacity=80);
+}
+.scroll-btn .mouse {
+	position: relative;
+	display: block;
+	width: 35px;
+	height: 55px;
+	margin: 0 auto 20px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 3px solid white;
+	border-radius: 23px;
+}
+.scroll-btn .mouse > * {
+	position: absolute;
+	display: block;
+	top: 29%;
+	left: 50%;
+	width: 8px;
+	height: 8px;
+	margin: -4px 0 0 -4px;
+	background: white;
+	border-radius: 50%;
+	-webkit-animation: ani-mouse 2.5s linear infinite;
+	-moz-animation: ani-mouse 2.5s linear infinite;
+	animation: ani-mouse 2.5s linear infinite;
