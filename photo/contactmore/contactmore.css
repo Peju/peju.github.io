@@ -53,7 +53,7 @@
 	padding-top: 100px;
 }
 .contactbox2{
-	height:780px;
+	height:820px;
 	z-index: 1;
 	background-color: #d4d4aa;
 }
@@ -76,6 +76,9 @@
 .imagehead{
     text-align: center;
     padding-bottom: 25px;
+}
+.formc{
+	text-align: center;s
 }
 fieldset {
 	border: medium none !important;
