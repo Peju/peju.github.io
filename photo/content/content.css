@@ -44,7 +44,7 @@
 .contactbox3{
 	height:1570px;
 	z-index: 1;
-	background-color: #d4d4aa;
+	background-color: #55552b;
 	padding-top: 22px;
 }
 .layer{
@@ -53,6 +53,7 @@
 	text-align: center;
 	padding-top: 3%;
 	padding-bottom: 2%;
+	color: white;
 }
 .moreabout{
 	font-family: 'Raleway', sans-serif;
@@ -62,6 +63,7 @@
 	padding-right: 1%;
 	letter-spacing: 1px;
 	line-height: 44px;
+	color: white;
 }
 .contactdiv{
 	text-align: center;
