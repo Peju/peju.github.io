@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Peter Jough</title> 
+
+	<meta charset="utf-8">
+	<meta name="language" content="english"> 
+	<meta http-equiv="content-type" content="text/html">
+	<meta name="author" content="Peter Jough">
+	<meta name="designer" content="Peter Jough">
+	<meta name="viewport" content="width=device-width, maximum-scale=1.0">
+	<meta name="description" content="Sophomore at NJIT majoring Business and Information Systems">
+	<meta name="keywords" content="Peter Jough, NJIT, bis, web design">
+	<meta name="author" content="Peter Jough">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,300' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
+
+	<link rel="icon" type="image/x-icon" href="faviconsg.ico"/>
+	<link rel="stylesheet" type="text/css" href="info.css">
+	<link rel="stylesheet" type="text/css" href="animate.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+
+<div class >
+	<p class = "picframe">
+					<img src="building.jpg" alt="profile picture" class= "picwork" width="50%" height="42%">
+				</p>
+
+</div>
+
+
+
+<script>
+function main() {
+  $('.picwork').hide();
+  $('.picwork').fadeIn(1000);
+  
+  $('.projects').hide();
+  
+  $('.projects-button').on('click', function() {
+		$(this).next().slideToggle(400);
+    $(this).toggleClass('active');
+    $(this).text('Projects Viewed');
+	});
+}
+
+$(document).ready(main);
+
+
+</script>
+
+
+
+
+
+
+
+
+</body>
+</html>
