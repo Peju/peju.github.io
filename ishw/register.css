@@ -1,0 +1,65 @@
+/*Parallax
+.parallax{
+	
+	background:url(canadablur.jpg) no-repeat center center fixed;
+	background-size: 100%;
+	background-size: cover;
+    background-position: center;
+    min-height: 100%;
+    min-width: 1024px;
+ 
+}
+.parallax-inner{
+	padding-top: 20%;
+	padding-bottom: 25%;
+}
+*/
+
+img.bg {
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 100px;
+	
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+	
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+@media screen and (max-width: 100px) { /* Specific to this particular image */
+  img.bg {
+    left: 50%;
+    margin-left: -512px;   /* 50% */
+  }
+}
+
+
+.registerbox{
+	position:absolute;
+	width: 650px;
+	height: 650px;
+	top:20%;
+ 	left:45%;
+ 	margin-top:-15px; /* this is half the height of your div*/  
+  	margin-left:-200px; /*this is half of width of your div*/
+	background-color: #66cc66;opacity:0.75;
+	z-index: 1;
+}
+
+.registertext{
+	font-family: 'Raleway', sans-serif;
+	font-size: 50px;
+	text-align: center;
+	padding-bottom: 1%;
+}
+
+.welcometext{
+	font-family: 'Raleway', sans-serif;
+	font-size: 25px;
+	text-align: center;
+	padding-bottom: 1.5%;
+}
