@@ -33,7 +33,7 @@
 @media screen and (max-width: 100px) { /* Specific to this particular image */	
   img.bg {
     left: 50%;
-    margin-left: -512px;   /* 50% */
+    margin-left: 50%;   /* -512px 50% */
   }
 }
 	
@@ -41,8 +41,8 @@
 	position:absolute;
 	width: 650px;
 	height: 650px;
-	top:13%;
- 	left:45%;
+	top:6%;
+ 	left:44%;
  	margin-top:-15px; /* this is half the height of your div*/  
   	margin-left:-220px; /*this is half of width of your div*/
 	background-color:
@@ -62,10 +62,10 @@
 
 .registertext{
 	font-family: 'Raleway', sans-serif;
-	font-size: 50px;
+	font-size: 48px;
 	color: white;
 	text-align: center;
-	padding-bottom: 1%;
+	padding-bottom: 7px;
 }
 
 .welcometext{
@@ -73,7 +73,7 @@
 	font-size: 25px;
 	color: white;
 	text-align: center;
-	padding-bottom: 1.5%;
+	padding-bottom: 1%;
 }
 
 .boxsize{
@@ -82,10 +82,10 @@
 }
 
 .boxmove{
-	padding-left: 25%;
+	padding-left: 24.8%;
 	
 }
 
-.spacem{
-	padding-left: 25%;
+.boxgender{
+	padding-left: 27.8%;
 }
