@@ -37,8 +37,8 @@
 	padding-top: 30px;
 }
 .textaboutANI{
-	font-size: 48px;
-	font-family: 'Orbitron', sans-serif;
+	font-size: 50px;
+	font-family: 'Poiret One', sans-serif;
 	color: white;
 	z-index: 2;
 	text-align: center;
@@ -82,9 +82,20 @@
 	padding-top: 30px;
 	padding-bottom: 20px;
 }
-.bs{
+.cardintro{
+	font-family: 'Raleway', sans-serif;
+	font-size: 24px;
+	text-align: center;
+}
+.cardmeat{
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+	text-align: center;
+}
+.mi{
       font-family: 'Titillium Web', sans-serif;
       font-size: 22px;
+      padding-top: 10px;
 }
 
 /*Colors for icons?*/
@@ -141,11 +152,11 @@
 }
 .navbar-brand {
 	font-family: 'Raleway';
-    font-size: 18px;
+    font-size: 22px;
 }
 .page-scroll {
     font-family: 'Raleway', sans-serif;
-    font-size: 13px;  
+    font-size: 14px;  
 }
 @media(min-width:767px) {
 	.navbar {
