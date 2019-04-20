@@ -19,23 +19,86 @@
 	color: white;
 }
 
-/*Parallax*/
+.myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  z-index: -5;
+}
+
 .parallax{
-	background:url(Rest.jpg) repeat fixed;
 	background-size: 100%;
 	background-size: cover;
     background-position: center;
+    min-height: 100%;
+    min-width: 1024px;
+    
 }
 .parallax-inner{
-	padding-top: 20%;
-	padding-bottom: 25%;
+	padding-top: 260px;
+	padding-bottom: 50%;
 }
 
-/*Text*/
 .picframe{
 	text-align: center;
 	padding-top: 30px;
 }
+
+.content {
+  
+}
+
+.aboutme{
+	background-color: #eaf0f9;
+	padding-top: 2%;
+	padding-bottom: 5%;
+    z-index: 2;
+}
+
+.aboutmetoo{
+	background-color: #fcfffc;
+	padding-top: 2%;
+	padding-bottom: 5%;
+}
+
+.aboutmethree{
+	background-color: #f4f8ff;
+	padding-top: 2%;
+	padding-bottom: 8%;
+	z-index: 3;
+}
+
+.aboutmeinfo{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 21px;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+.textaboutme{
+	font-family: 'Rock Salt', sans-serif;
+	font-size: 35px;
+	text-align: center;
+}
+
+.mi{
+      font-family: 'Titillium Web', sans-serif;
+      font-size: 22px;
+      padding-top: 10px;
+}
+
+.projinfo{
+	font-family: 'Raleway', sans-serif;
+	font-size: 21px;
+	padding-top: 3%;
+	padding-bottom: 6%;
+	text-align: center;
+	line-height: 50px;
+}
+
 .textaboutANI{
 	font-size: 50px;
 	font-family: 'Poiret One', sans-serif;
@@ -45,56 +108,6 @@
 	padding-top: 20px;
 	-webkit-animation-delay: 1s; 
     animation-delay: 1s;
-}
-.textabout{
-	font-size: 48px;
-	font-family: 'Orbitron', sans-serif;
-	color: white;
-	z-index: 2;
-	text-align: center;
-	padding-top: 20px;
-}
-.textaboutme{
-	font-family: 'Rock Salt', sans-serif;
-	font-size: 35px;
-	text-align: center;
-}
-.aboutme{
-	background-color: #c3c388;
-	padding-top: 2%;
-	padding-bottom: 5%;
-}
-.aboutmetoo{
-	background-color: #ddddbb;
-	padding-top: 2%;
-	padding-bottom: 5%;
-}
-.aboutmethree{
-	background-color: #c3c388;
-	padding-top: 2%;
-	padding-bottom: 8%;
-}
-.aboutmeinfo{
-	font-family: 'Raleway', sans-serif;
-	font-size: 21px;
-	text-align: center;
-	padding-top: 30px;
-	padding-bottom: 20px;
-}
-.cardintro{
-	font-family: 'Raleway', sans-serif;
-	font-size: 24px;
-	text-align: center;
-}
-.cardmeat{
-	font-family: 'Raleway', sans-serif;
-	font-size: 16px;
-	text-align: center;
-}
-.mi{
-      font-family: 'Titillium Web', sans-serif;
-      font-size: 22px;
-      padding-top: 10px;
 }
 
 /*Colors for icons?*/
@@ -108,17 +121,16 @@
     padding-bottom: 30px;
     padding-top: 60px;
 }
-.projinfo{
-	font-family: 'Raleway', sans-serif;
-	font-size: 21px;
-	padding-top: 3%;
-	padding-bottom: 6%;
-	text-align: center;
-	line-height: 50px;
-}
 
-.card-4 {
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+.cardintro{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 24px;
+	text-align: center;
+}
+.cardmeat{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	text-align: center;
 }
 .githubC{
 	color:purple;
@@ -150,11 +162,11 @@
 	color: white;
 }
 .navbar-brand {
-	font-family: 'Raleway';
+	font-family: 'Montserrat', sans-serif;
     font-size: 22px;
 }
 .page-scroll {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 14px;  
 }
 @media(min-width:767px) {
@@ -163,5 +175,3 @@
 		border-bottom: 0;
 		background: 0 0;
 	}
-
-
