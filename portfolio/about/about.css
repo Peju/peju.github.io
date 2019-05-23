@@ -1,0 +1,56 @@
+.aboutMeDiv{
+	padding-top: 5%;
+}
+
+.whoText{
+	font-family: 'PT Serif', serif;
+	font-size: 60px;
+	color: #5c5c5c;
+}
+
+.aboutText{
+	font-family: 'Raleway,' sans-serif;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+.githubC{
+  color:purple;
+}
+.linkC{
+  color:#3385ff;
+}
+.gmail{
+  color:#ff3300
+}
+.medium{
+  color:#5b5d60;
+}
+
+.imagehead{
+    text-align: center;
+
+}
+.imagehead2{
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.contactdiv{
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 1px;
+}
+
+.copyright{
+  text-align: 'Montserrat', sans-serif;
+  font-size: 12px;
+}
+
+.aboutmethree{
+  background-color: #f4f8ff;
+  padding-top: 2%;
+  padding-bottom: 2px;
+  z-index: 3;
+}
