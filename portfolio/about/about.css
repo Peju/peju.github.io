@@ -37,6 +37,18 @@
     padding-top: 5px;
 }
 
+.picframe{
+  text-align: center;
+}
+
+.picP{
+  text-align: center;
+  box-shadow: 0 10px 10px rgba(0,0,0,0.20), 0 10px 10px rgba(0,0,0,0.20);
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+}
+
 .contactdiv{
   text-align: center;
   padding-top: 5px;
