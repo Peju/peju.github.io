@@ -1,5 +1,6 @@
 .aboutMeDiv{
-	padding-top: 5%;
+	padding-top: 4%;
+  padding-bottom: 20px;
 }
 
 .whoText{
@@ -12,6 +13,8 @@
 	font-family: 'Raleway,' sans-serif;
 	font-size: 18px;
 	text-decoration: none;
+  padding-bottom: 10px;
+  letter-spacing: 1.3px;
 }
 
 .githubC{
@@ -41,14 +44,6 @@
   text-align: center;
 }
 
-.picP{
-  text-align: center;
-  box-shadow: 0 10px 10px rgba(0,0,0,0.20), 0 10px 10px rgba(0,0,0,0.20);
-  border-radius: 100px;
-  -webkit-border-radius: 100px;
-  -moz-border-radius: 100px;
-}
-
 .contactdiv{
   text-align: center;
   padding-top: 5px;
@@ -60,9 +55,31 @@
   font-size: 12px;
 }
 
-.aboutmethree{
-  background-color: #f4f8ff;
-  padding-top: 2%;
-  padding-bottom: 2px;
-  z-index: 3;
+.navcolor a {
+  text-decoration: none;
 }
+.navcolor a:visited { 
+  color: white;
+}
+.navcolor a:hover {
+  color: gray;
+}
+.navbar-custom {
+  margin-bottom: 0;
+}
+.navbar-custom .navbar-brand:focus {
+  outline: 0;
+}
+.navbar-custom a {
+  color: black;
+}
+.navbar-brand {
+  font-family: 'Raleway';
+  font-size: 18px;
+
+}
+.page-scroll {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;  
+}
+
