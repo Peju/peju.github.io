@@ -1,0 +1,85 @@
+.aboutMeDiv{
+	padding-top: 4%;
+  padding-bottom: 20px;
+}
+
+.whoText{
+	font-family: 'PT Serif', serif;
+	font-size: 60px;
+	color: #5c5c5c;
+}
+
+.aboutText{
+	font-family: 'Raleway,' sans-serif;
+	font-size: 18px;
+	text-decoration: none;
+  padding-bottom: 10px;
+  letter-spacing: 1.3px;
+}
+
+.githubC{
+  color:purple;
+}
+.linkC{
+  color:#3385ff;
+}
+.gmail{
+  color:#ff3300
+}
+.medium{
+  color:#5b5d60;
+}
+
+.imagehead{
+    text-align: center;
+
+}
+.imagehead2{
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.picframe{
+  text-align: center;
+}
+
+.contactdiv{
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 1px;
+}
+
+.copyright{
+  text-align: 'Montserrat', sans-serif;
+  font-size: 12px;
+}
+
+.navcolor a {
+  text-decoration: none;
+}
+.navcolor a:visited { 
+  color: white;
+}
+.navcolor a:hover {
+  color: gray;
+}
+.navbar-custom {
+  margin-bottom: 0;
+}
+.navbar-custom .navbar-brand:focus {
+  outline: 0;
+}
+.navbar-custom a {
+  color: black;
+}
+.navbar-brand {
+  font-family: 'Raleway';
+  font-size: 18px;
+
+}
+.page-scroll {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;  
+}
+

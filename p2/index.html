@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Amazon Alexa Custom Skill</title> 
+
+	<meta charset="utf-8">
+	<meta name="language" content="english"> 
+	<meta http-equiv="content-type" content="text/html">
+	<meta name="author" content="Peter Jough">
+	<meta name="designer" content="Peter Jough">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta name="description" content="MVP Augmented Reality Product">
+	<meta name="keywords" content="Peter Jough, product manager, facebook, google, airbnb, product manager intern, spotify, product designer, APM, RPM, product managers in nyc, product managers in nj, NJIT, bis, web design, prudential, massmutual, social x lab, social interaction lab">
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+	<link rel="icon" type="image/x-icon" href="favicon.ico"/>
+	<link rel="stylesheet" type="text/css" href="p2.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script	src="https://code.jquery.com/jquery-3.4.0.js"></script>
+</head>
+<body>
+<!--navbar section-->
+	<div class="navbar navbar-custom navbar-fixed-top" id="header" data-scrollspy="scrollspy" role="navigation">
+		<div class="container"> 
+			<div class="navbar-header">
+				<a class="navbar-brand" href="http://peju.github.io/portfolio/"><strong>Home</strong></a>
+			</div>
+		</div>
+	</div>
+	<div>
+	  <section class = "parallax">
+		  <div class = "parallax-inner">
+			  <p class = "introText font-weight-bold container container-fluid">Protect Your Privacy</p>
+		  </div>
+	  </section>
+
+		<div class = "aboutmethree">
+		  <div class="row">
+	   	    <div class="col container container-fluid"><p class = "introDes"><strong>Role:</strong> Product Manager</p></div>
+		    <div class="col container container-fluid"><p class = "introDes"><strong>Tools:</strong> Amazon Alexa, Python, Microsoft Office Products, LucidChart</p></div>
+		    <div class="col container container-fluid"><p class = "introDes"><strong>Responsibilities:</strong> Product Manager (Vision/Strategy), Project Managing</p></div>
+		    <div class="col container container-fluid"><p class = "introDes"><strong>SecureSession:</strong> Provides basic security to your Amazon Alexa device to protect your financial information. </p></div>
+		    <div class="w-100"></div>
+		  </div>
+		  		<!--Body-->
+				<p class = "container container-fluid">
+					<p class = "introBold"><strong>Summary:</strong></p>
+
+						<p class = "bodyText container container-fluid">
+						  A team of 4 including myself were responsible for creating an Amazon Alexa Skill within a week ontop our day job. We wanted to create a working MVP of our custom Alexa Skill. The purpose of our skill, SecureSession is to provide basic voice security to accidental activations and Dolphin Attacks (inaudible soundwaves to human ears, but are picked up by Home Assistant devices), which can be used to hack Home Assistant devices for malicious intent. SecureSession serves as a primary defensive mechanism to prevent the retrieval of sensitive financial information.</p></p>
+
+		    	<p class = "container container-fluid">
+					<p class = "introBold"><strong>Motivating Problem:</strong></p>
+						<p class = "bodyText container container-fluid">
+						  Companies are moving their products and services to modern technologies such as Home Assistant (HA) devices since its becoming the new consumer staple. Because MassMutual's business involves sensitive financial information, it's important to have a security feature. Because Alexa is triggered by voice commands, we found through our user research that Dolphin Attacks are a threat to these HA devices. </p></p>
+
+				<p class = "container container-fluid">
+					<p class = "introBold"><strong>Process:</strong></p>
+						<p class = "bodyText container container-fluid">
+							<strong>Pain points:</strong>  
+							  Security and privacy concerns would be considered process pain point since it deters and inhibits the customer experience when trying to conveniently access your own financial information via HA devices.</p></p><br><br>
+
+				<p class = "bodyText container container-fluid">	
+					<strong>Customer Discovery:</strong>
+				      We did basic qualitative research from fellow colleagues and employees at MM regarding ownership of HA devices. We found that there is a decent representation of HA ownership and that the technology is becoming more integrated into people's everyday lives. Many people have never heard of a Dolphin Attack and were unaware of its damage when used for malicious intent. In addition, participants brought up how having guests or young children who consciously or unconsciously know what they're doing with a HA device could pose as another security threat.<br><br>
+
+				   	<img src= "alexalogo.png" class="rounded mx-auto d-block" alt="SecureSession Logos"></p>       
+						         
+				<p class = "bodyText container container-fluid">	
+			   	  Here are some basic logo designs of SecureSession.</p>
+
+				<!--two paper protype section-->
+				<div class="row">
+				  <div class="col">
+				  	<img src= "ucd1.png" class="rounded mx-auto d-block paper" alt="Use Case Diagram" width="auto" height="600">
+						<p class = "bodyText container container-fluid">
+						  We created basic use case model to showcase the flow of the system.</p><div>
+				  <!--<div class="col">
+				  	<img src= "paper1.png" class="rounded mx-auto d-block paper" alt="Paper Prototype" width="auto" height="600">
+						<p class = "bodyText container container-fluid">	
+						  Once a sticker is scanned and after they view the cube, they can learn about where that department is and view their proximity to it to improve navigation. Furthermore, users could view previously scanned stickers in their collection on the same map, which serves as a gamified aspect by including a leaderboard to promote friendly competition.
+						</p></div>-->
+				  <div class="w-100"></div>
+				</div>
+						       	
+
+				<!--iFrame section-->
+				<p class = "container container-fluid">
+					<p class = "introBold"><strong>Solution:</strong>
+						<p class = "bodyText container container-fluid">
+
+							<strong>Features:</strong> 
+							  When a MM client wants to access their financial information via their HA device, they would deactivate SecureSession so they can have access to their account detail. After they're done, they would reactivate SecureSession through the voice commands, now their account is locked. Anyone who tries to retrieve this information would be denied unless they knew the SecureSession password to deactivate it.</p></p><br><br>
+
+
+							<p class = "bodyText container container-fluid">	
+							<strong>KPI(s):</strong>
+							Because this project was to produce a MVP of our product, we didn’t get to fully measure KPIs. There would need to further discussion about which metric would be considered the core and tracking metrics. However, some KPIs to consider if this product was to be worked in the future would be the following...<br><br>
+							<strong>Warning Attempts:</strong> Measure the number of attempts of infiltration that SecuredSession has blocked (accidental triggers or Dolphin Attacks detected).<br><br>
+
+							<p class = "introBold"><strong>Conclusion/Limitations:</strong>
+							<p class = "bodyText container container-fluid">	
+							  During our tech demo presentation to various marketing and R&D lab sponsors, they were impressed that we got a fully functional MVP of our custom-made Alexa skill. While we did get the core functionality, we did not fully get to incorporate the other features. Some limitations of the development of this Skill is that it's a very basic and effective way of having a way of protecting your information from being accessed through sound waves. We did not do any sophisticated QA testing to ensure this feature is nearly impenetrable. For our customer discovery, we had one week to complete this Skill, so we collected a small amount of data, the sample isn't truly represensitive or in-depth as we would've liked it to be.</p></p><br><br>
+		</div>
+	</div>
+</body>
+</html>

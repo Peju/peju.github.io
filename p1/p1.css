@@ -1,0 +1,105 @@
+/*Parallax*/
+.parallax{
+	background:url(arRight.png) repeat fixed;
+	background-size: 100%;
+	background-size: cover;
+  background-position: center;
+}
+.parallax-inner{
+	padding-top: 20%;
+	padding-bottom: 25%;
+}
+
+
+.bodyText{
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	color: black;
+	padding-bottom: 10px;
+	padding-top: 10px;
+  line-height: 170%;
+}
+
+.introText{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 98px;
+  text-align: center;
+  color: #2e332c;
+}
+
+.aboutmethree{
+  background-color: #f4f8ff;
+  padding-top: 2%;
+  padding-bottom: 2px;
+  max-width: auto;
+  z-index: 3;
+}
+
+.introDes{
+	font-size: 18px;
+	padding-top: 1%;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.introBold{
+  font-size: 33px;
+  padding-top: 1%;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  letter-spacing: -.5px;
+}
+
+.frame{
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.paper{
+  background-size: 100%;
+  background-position: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  max-height: 100%;
+  padding-bottom: 10px;
+}
+
+
+.navcolor a {
+  text-decoration: none;
+}
+.navcolor a:visited { 
+  color: white;
+}
+.navcolor a:hover {
+  color: gray;
+}
+.navbar-custom {
+  margin-bottom: 0;
+}
+.navbar-custom .navbar-brand:focus {
+  outline: 0;
+}
+.navbar-custom a {
+  color: black;
+}
+.navbar-brand {
+  font-family: 'Raleway';
+  font-size: 22px;
+  float: left;
+  top: 0;
+  width: 100%;
+}
+.page-scroll {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;  
+}
+
+@media(min-width:767px) {
+  .navbar {
+    padding: 20px 0;
+    border-bottom: 0;
+    background: 0 0;
+  }
